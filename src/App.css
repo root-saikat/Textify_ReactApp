@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+/* custom css */
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+.app-container{
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+}
+
